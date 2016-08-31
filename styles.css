@@ -8,14 +8,14 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
+  color: #3b3a36;
   background: #f7f5f0;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
@@ -25,12 +25,13 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #3b3a36;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,36 +58,36 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: linear-gradient(to bottom, transparent 0%, #f7f5f0 100%), url('images/background.jpg') no-repeat top center  ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
 header {
-  line-height: 1.5;
+  line-height: 1.5; 
 }
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: white;
+  color: #3b3a36;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #3b3a36;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -99,7 +100,19 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #c0dfd9;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  margin: auto;
+  box-shadow: 7px 7px 5px grey;
+}
+
+#card1 {
+  margin: 5px 0px 0px 0px;
 }
 
 ul.skills {
@@ -110,14 +123,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #b3c2bf;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #3b3a36;
 }
 
 footer {
